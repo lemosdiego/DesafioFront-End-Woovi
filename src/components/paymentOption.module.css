@@ -1,0 +1,57 @@
+.list_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    width: 80%;
+}
+
+.installments {
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.total {
+    color: #AFAFAF;
+    font-size: 16px;
+}
+
+.radio {
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container_cash {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #133A6F;
+}
+
+.text {
+    font-size: 14px;
+    width: 90%;
+    color: #fff;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid #fff;
+}
