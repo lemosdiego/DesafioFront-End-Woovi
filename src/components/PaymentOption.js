@@ -1,5 +1,6 @@
 import { ListItem, Typography, Radio, Box } from "@mui/material";
 import Styles from './paymentOption.module.css'
+import Link from "next/link";
 
 const PaymentOption = ({ style, parcelasText, totalText, cashbackOption, cashbackText, selectedValue, handleChange, value }) => {
   return (
@@ -10,11 +11,13 @@ const PaymentOption = ({ style, parcelasText, totalText, cashbackOption, cashbac
           <Typography className={Styles.total}>{totalText}</Typography>
         </Box>
         <Box className={Styles.radio}>
-          <Radio
-            checked={selectedValue === value}
-            onChange={handleChange}
-            value={value}
-          />
+          <Link href="/pixPayment">
+            <Radio
+              checked={selectedValue === value}
+              onChange={handleChange}
+              value={value}
+            />
+          </Link>
         </Box>
       </Box>
       {cashbackOption && (

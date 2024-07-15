@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Box, Divider, Typography } from '@mui/material';
 import Image from 'next/image';
 import { TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineSeparator } from '@mui/lab';
+import Link from 'next/link';
 
 
 
@@ -43,17 +44,19 @@ const PixPayment = () => {
                     />
                 </Box>
             </Box>
-            <Box className={Styles.copy}>
-                <Typography className={Styles.text} sx={{ fontSize: "18px", color: "#fff" }}>Clique para copiar QR CODE</Typography>
-                <Box className={Styles.logo}>
-                    <Image
-                        src="/Vector.svg"
-                        alt="Logo"
-                        layout='fill'
-                        objectFit='contain'
-                    />
+            <Link href="/pixPayment">
+                <Box className={Styles.copy}>
+                    <Typography className={Styles.text} sx={{ fontSize: "18px", color: "#fff" }}>Clique para copiar QR CODE</Typography>
+                    <Box className={Styles.logo}>
+                        <Image
+                            src="/Vector.svg"
+                            alt="Logo"
+                            layout='fill'
+                            objectFit='contain'
+                        />
+                    </Box>
                 </Box>
-            </Box>
+            </Link>
             <Box className={Styles.term}>
                 <Typography className={Styles.termText}>Prazo de pagamento:</Typography>
                 <Typography className={Styles.textDate}>15/12/2021 - 08:17</Typography>

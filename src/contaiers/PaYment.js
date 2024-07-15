@@ -12,6 +12,8 @@ const Payment = () => {
 
   const handleChange = (event) => {
     setSelectedValue(event.target.value);
+
+
   };
 
   return (
@@ -101,12 +103,6 @@ const Payment = () => {
             />
           </RadioGroup>
         </FormControl>
-      </Box>
-
-      <Box className={Styles.box2} >
-        <Link href="/pixPayment">
-          <Button className={Styles.button} >Prosseguir com o Pagamento</Button>
-        </Link>
       </Box>
 
       <Box className={Styles.box3}>
