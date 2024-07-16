@@ -7,14 +7,14 @@
 }
 
 .containerForm {
-    width: 430px;
+    width: 380px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 .button {
-    width: 430px;
+    width: 380px;
 }
 
 .buttonPay {
@@ -58,7 +58,7 @@
 }
 
 .timeline {
-    width: 430px;
+    width: 380px;
 }
 
 .boxTimeline {
@@ -126,7 +126,7 @@
 }
 
 .portion {
-    font-size: 18px;
+    font-size: 15px;
     color: #4D4D4D;
     font-weight: 600;
     margin-left: 4px;
