@@ -1,23 +1,40 @@
-import { ListItem, Typography, Radio, Box } from "@mui/material";
+"use-client"
+import { ListItem, Typography, Box, Link } from "@mui/material";
 import Styles from './paymentOption.module.css';
-import Link from "next/link";
+import Image from "next/image";
 
-const PaymentOption = ({ style, parcelasText, totalText, cashbackOption, cashbackText, selectedValue, handleChange, value }) => {
+const PaymentOption = ({ style, parcelasText, totalText, cashbackOption, cashbackText, isSelected, handleChange, value }) => {
   return (
     <ListItem className={Styles.list_item} sx={{ ...style }}>
-      <Box className={Styles.container}>
+      <Box className={`${Styles.container} ${isSelected ? Styles.selected : ''}`}>
         <Box className={Styles.description}>
           <Typography className={Styles.installments}>{parcelasText}</Typography>
           <Typography className={Styles.total}>{totalText}</Typography>
         </Box>
         <Box className={Styles.radio}>
           <Link href="/pixPayment">
-            <Radio
-              checked={selectedValue === value}
-              onChange={handleChange}
-              value={value}
-              color="success"
-            />
+            <Box className={Styles.checkbox}
+              sx={{
+                border: "solid 2px #E5E5E5",
+                width: "20px",
+                height: "20px",
+                borderRadius: "50%",
+                backgroundColor: isSelected ? "#03D69D" : "transparent",
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center"
+              }}
+              onClick={() => handleChange(value)}>
+              <Box className={Styles.checked}>
+                <Image
+                  src="/concluido.svg"
+                  alt="Logo"
+                  layout='fill'
+                  objectFit='contain'
+                />
+              </Box>
+            </Box>
           </Link>
         </Box>
       </Box>

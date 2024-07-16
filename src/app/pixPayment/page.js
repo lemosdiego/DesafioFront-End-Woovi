@@ -2,10 +2,8 @@
 import Styles from './pixPayment.module.css'
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Box, Divider, Typography } from '@mui/material';
+import { Box, Divider, Link, Typography } from '@mui/material';
 import Image from 'next/image';
-import { TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineSeparator } from '@mui/lab';
-import Link from 'next/link';
 
 
 
@@ -44,7 +42,7 @@ const PixPayment = () => {
                     />
                 </Box>
             </Box>
-            <Link href="/pixPayment">
+            <Link href="/cardPayment" sx={{ textDecoration: "none" }}>
                 <Box className={Styles.copy}>
                     <Typography className={Styles.text} sx={{ fontSize: "18px", color: "#fff" }}>Clique para copiar QR CODE</Typography>
                     <Box className={Styles.logo}>

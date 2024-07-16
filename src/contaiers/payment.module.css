@@ -18,20 +18,8 @@
 .box1 {
     width: 380px;
     height: 140px;
-}
-
-.fieldset1 {
-    width: 100%;
-    height: 100%;
     border: solid 2px #E5E5E5;
-    border-radius: 10px;
-}
-
-.fieldset {
-    width: 100%;
-    height: 100%;
-    border: solid 2px #03D69D;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .label {
@@ -45,6 +33,8 @@
     justify-content: center;
 }
 
+
+
 .box2 {
     width: 380px;
 }
@@ -52,10 +42,9 @@
 .box_Payment {
     border: solid 1px #E5E5E5;
     border-radius: 8px;
-
 }
 
-.box_Payment:hover {
+.selectedBorder {
     border: solid 2px #03D69D;
 }
 
