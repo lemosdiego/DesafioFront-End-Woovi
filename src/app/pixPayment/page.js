@@ -32,7 +32,7 @@ const PixPayment = () => {
                     height={40}
                 />
             </Box>
-            <Typography sx={{ width: "70%", height: "70px", textAlign: "center", fontSize: "24px", marginTop: "20px" }}>João, pague a entrada de R$ 15.300,00 pelo Pix</Typography>
+            <Typography sx={{ width: "300px", height: "70px", textAlign: "center", fontSize: "24px", marginTop: "20px" }}>João, pague a entrada de R$ 15.300,00 pelo Pix</Typography>
 
             <Box className={Styles.code}>
                 <Box className={Styles.img}>
@@ -66,7 +66,7 @@ const PixPayment = () => {
                     <Box className={Styles.timeContainer}>
                         <Box className={Styles.circle}>
                             <Box className={Styles.timeCircle}></Box>
-                            <Box className={Styles.timeLine}></Box>
+                            <Box className={Styles.timeLine1}></Box>
                             <Box className={Styles.timeCircle}></Box>
                         </Box>
                         <Box className={Styles.description}>

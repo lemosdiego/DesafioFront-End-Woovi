@@ -1,955 +1,188 @@
-@media (min-width: 320px) and (max-width: 480px) {
-    .container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .code {
-        border: solid 2px #03D69D;
-        width: 320px;
-        height: 320px;
-        border-radius: 10px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .img {
-        width: 95%;
-        height: 95%;
-        position: relative;
-    }
-
-    .copy {
-        width: 310px;
-        height: 40px;
-        background-color: #133A6F;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text {
-        width: 80%;
-    }
-
-    .logo {
-        width: 10%;
-        height: 70%;
-        position: relative;
-    }
-
-    .term {
-        width: 160px;
-        height: 50px;
-        text-align: center;
-    }
-
-    .termText {
-        font-size: 16px;
-        color: #B2B2B2;
-    }
-
-    .textDate {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .timeLine {
-        border: solid 1px #E5E5E5;
-        width: 1px;
-        height: 18px;
-        width: 90%;
-    }
-
-    .boxTimeline {
-        width: 100%;
-        height: 110px;
-        display: flex;
-        align-items: center;
-    }
-
-    .timeContainer {
-        width: 50%;
-        height: 80%;
-        display: flex;
-    }
-
-    .circle {
-        width: 10%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .timeCircle {
-        border: solid 2px #03D69D;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-    }
-
-
-    .description {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    .value {
-        width: 50%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-evenly;
-        font-size: 18px;
-    }
-
-    .portion {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-        margin-left: 4px;
-    }
-
-    .textValue {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .boxTotal {
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .totalText {
-        font-size: 14px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText1 {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText2 {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 800;
-    }
-
-    .imgIcon {
-        width: 20px;
-        height: 20px;
-        position: relative;
-    }
-
-    .identifier {
-        width: 290px;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .textIdentifier {
-        font-size: 14px;
-        color: #B2B2B2;
-        font-weight: 600;
-    }
-
-    .paymentSecure {
-        width: 300px;
-        height: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-    .container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .code {
-        border: solid 2px #03D69D;
-        width: 380px;
-        height: 380px;
-        border-radius: 10px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .img {
-        width: 95%;
-        height: 95%;
-        position: relative;
-    }
-
-    .copy {
-        width: 310px;
-        height: 40px;
-        background-color: #133A6F;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text {
-        width: 80%;
-    }
-
-    .logo {
-        width: 10%;
-        height: 70%;
-        position: relative;
-    }
-
-    .term {
-        width: 160px;
-        height: 50px;
-        text-align: center;
-    }
-
-    .termText {
-        font-size: 16px;
-        color: #B2B2B2;
-    }
-
-    .textDate {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .timeline {
-        width: 400px;
-    }
-
-    .boxTimeline {
-        width: 100%;
-        height: 110px;
-        display: flex;
-        align-items: center;
-    }
-
-    .timeContainer {
-        width: 50%;
-        height: 80%;
-        display: flex;
-    }
-
-    .circle {
-        width: 10%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .timeCircle {
-        border: solid 2px #03D69D;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-    }
-
-    .timeLine {
-        border: solid 1px #E5E5E5;
-        width: 1px;
-        height: 18px;
-    }
-
-    .description {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    .value {
-        width: 50%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-evenly;
-        font-size: 18px;
-    }
-
-    .portion {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-        margin-left: 4px;
-    }
-
-    .textValue {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .boxTotal {
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .totalText {
-        font-size: 14px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText1 {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText2 {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 800;
-    }
-
-    .imgIcon {
-        width: 20px;
-        height: 20px;
-        position: relative;
-    }
-
-    .identifier {
-        width: 290px;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .textIdentifier {
-        font-size: 14px;
-        color: #B2B2B2;
-        font-weight: 600;
-    }
-
-    .paymentSecure {
-        width: 300px;
-        height: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
+.code {
+    border: solid 2px #03D69D;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .code {
-        border: solid 2px #03D69D;
-        width: 380px;
-        height: 380px;
-        border-radius: 10px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .img {
-        width: 95%;
-        height: 95%;
-        position: relative;
-    }
-
-    .copy {
-        width: 310px;
-        height: 40px;
-        background-color: #133A6F;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text {
-        width: 80%;
-    }
-
-    .logo {
-        width: 10%;
-        height: 70%;
-        position: relative;
-    }
-
-    .term {
-        width: 160px;
-        height: 50px;
-        text-align: center;
-    }
-
-    .termText {
-        font-size: 16px;
-        color: #B2B2B2;
-    }
-
-    .textDate {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .timeline {
-        width: 400px;
-    }
-
-    .boxTimeline {
-        width: 100%;
-        height: 110px;
-        display: flex;
-        align-items: center;
-    }
-
-    .timeContainer {
-        width: 50%;
-        height: 80%;
-        display: flex;
-    }
-
-    .circle {
-        width: 10%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .timeCircle {
-        border: solid 2px #03D69D;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-    }
-
-    .timeLine {
-        border: solid 1px #E5E5E5;
-        width: 1px;
-        height: 18px;
-    }
-
-    .description {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    .value {
-        width: 50%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-evenly;
-        font-size: 18px;
-    }
-
-    .portion {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-        margin-left: 4px;
-    }
-
-    .textValue {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .boxTotal {
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .totalText {
-        font-size: 14px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText1 {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText2 {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 800;
-    }
-
-    .imgIcon {
-        width: 20px;
-        height: 20px;
-        position: relative;
-    }
-
-    .identifier {
-        width: 290px;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .textIdentifier {
-        font-size: 14px;
-        color: #B2B2B2;
-        font-weight: 600;
-    }
-
-    .paymentSecure {
-        width: 300px;
-        height: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
+.img {
+    width: 95%;
+    height: 95%;
+    position: relative;
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .code {
-        border: solid 2px #03D69D;
-        width: 400px;
-        height: 400px;
-        border-radius: 10px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .img {
-        width: 95%;
-        height: 95%;
-        position: relative;
-    }
-
-    .copy {
-        width: 310px;
-        height: 40px;
-        background-color: #133A6F;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text {
-        width: 80%;
-    }
-
-    .logo {
-        width: 10%;
-        height: 70%;
-        position: relative;
-    }
-
-    .term {
-        width: 160px;
-        height: 50px;
-        text-align: center;
-    }
-
-    .termText {
-        font-size: 16px;
-        color: #B2B2B2;
-    }
-
-    .textDate {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .timeline {
-        width: 600px;
-    }
-
-    .boxTimeline {
-        width: 100%;
-        height: 110px;
-        display: flex;
-        align-items: center;
-    }
-
-    .timeContainer {
-        width: 50%;
-        height: 80%;
-        display: flex;
-    }
-
-    .circle {
-        width: 10%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .timeCircle {
-        border: solid 2px #03D69D;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-    }
-
-    .timeLine {
-        border: solid 1px #E5E5E5;
-        width: 1px;
-        height: 18px;
-    }
-
-    .description {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    .value {
-        width: 50%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-evenly;
-        font-size: 18px;
-    }
-
-    .portion {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-        margin-left: 4px;
-    }
-
-    .textValue {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .boxTotal {
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .totalText {
-        font-size: 14px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText1 {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText2 {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 800;
-    }
-
-    .imgIcon {
-        width: 20px;
-        height: 20px;
-        position: relative;
-    }
-
-    .identifier {
-        width: 290px;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .textIdentifier {
-        font-size: 14px;
-        color: #B2B2B2;
-        font-weight: 600;
-    }
-
-    .paymentSecure {
-        width: 300px;
-        height: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
+.copy {
+    width: 350px;
+    height: 40px;
+    background-color: #133A6F;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (min-width: 1281px) and (max-width: 1920px) {
-    .container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
+.text {
+    width: 80%;
+}
 
-    .code {
-        border: solid 2px #03D69D;
-        width: 400px;
-        height: 400px;
-        border-radius: 10px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.logo {
+    width: 10%;
+    height: 70%;
+    position: relative;
+}
 
-    .img {
-        width: 95%;
-        height: 95%;
-        position: relative;
-    }
+.term {
+    width: 160px;
+    height: 50px;
+    text-align: center;
+}
 
-    .copy {
-        width: 310px;
-        height: 40px;
-        background-color: #133A6F;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.termText {
+    font-size: 16px;
+    color: #B2B2B2;
+}
 
-    .text {
-        width: 80%;
-    }
+.textDate {
+    font-size: 16px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
 
-    .logo {
-        width: 10%;
-        height: 70%;
-        position: relative;
-    }
+.timeline {
+    width: 400px;
+}
 
-    .term {
-        width: 160px;
-        height: 50px;
-        text-align: center;
-    }
+.timeLine1 {
+    border: solid 1px #E5E5E5;
+    width: 1px;
+    height: 18px;
+}
 
-    .termText {
-        font-size: 16px;
-        color: #B2B2B2;
-    }
+.boxTimeline {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
 
-    .textDate {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
+.timeContainer {
+    width: 50%;
+    height: 80%;
+    display: flex;
+}
 
-    .timeline {
-        width: 600px;
-    }
+.circle {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-    .boxTimeline {
-        width: 100%;
-        height: 110px;
-        display: flex;
-        align-items: center;
-    }
-
-    .timeContainer {
-        width: 50%;
-        height: 80%;
-        display: flex;
-    }
-
-    .circle {
-        width: 10%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .timeCircle {
-        border: solid 2px #03D69D;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-    }
-
-    .timeLine {
-        border: solid 1px #E5E5E5;
-        width: 1px;
-        height: 18px;
-    }
-
-    .description {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    .value {
-        width: 50%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-evenly;
-        font-size: 18px;
-    }
-
-    .portion {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-        margin-left: 4px;
-    }
-
-    .textValue {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .boxTotal {
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .totalText {
-        font-size: 14px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText1 {
-        font-size: 18px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .totalText2 {
-        font-size: 16px;
-        color: #4D4D4D;
-        font-weight: 800;
-    }
-
-    .imgIcon {
-        width: 20px;
-        height: 20px;
-        position: relative;
-    }
-
-    .identifier {
-        width: 290px;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .textIdentifier {
-        font-size: 14px;
-        color: #B2B2B2;
-        font-weight: 600;
-    }
-
-    .paymentSecure {
-        width: 300px;
-        height: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.timeCircle {
+    border: solid 2px #03D69D;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
 
 
+.description {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.value {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.portion {
+    font-size: 18px;
+    color: #4D4D4D;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.textValue {
+    font-size: 18px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+
+.boxTotal {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.totalText {
+    font-size: 14px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+
+.totalText1 {
+    font-size: 18px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+
+.totalText2 {
+    font-size: 16px;
+    color: #4D4D4D;
+    font-weight: 800;
+}
+
+.imgIcon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.identifier {
+    width: 290px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textIdentifier {
+    font-size: 14px;
+    color: #B2B2B2;
+    font-weight: 600;
+}
+
+.paymentSecure {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

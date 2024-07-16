@@ -1,5 +1,5 @@
 import { ListItem, Typography, Radio, Box } from "@mui/material";
-import Styles from './paymentOption.module.css'
+import Styles from './paymentOption.module.css';
 import Link from "next/link";
 
 const PaymentOption = ({ style, parcelasText, totalText, cashbackOption, cashbackText, selectedValue, handleChange, value }) => {
@@ -16,15 +16,15 @@ const PaymentOption = ({ style, parcelasText, totalText, cashbackOption, cashbac
               checked={selectedValue === value}
               onChange={handleChange}
               value={value}
+              color="success"
             />
           </Link>
         </Box>
       </Box>
       {cashbackOption && (
-        <Box className={Styles.container_cash} >
-          <Typography className={Styles.text} >{cashbackText}</Typography>
-          <Box className={Styles.triangle}>
-          </Box>
+        <Box className={Styles.container_cash}>
+          <Typography className={Styles.text}>{cashbackText}</Typography>
+          <Box className={Styles.triangle}></Box>
         </Box>
       )}
     </ListItem>
@@ -32,4 +32,3 @@ const PaymentOption = ({ style, parcelasText, totalText, cashbackOption, cashbac
 };
 
 export default PaymentOption;
-

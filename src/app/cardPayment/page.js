@@ -17,7 +17,7 @@ const CardPayment = () => {
                     height={40}
                 />
             </Box>
-            <Typography sx={{ width: "90%", height: "70px", textAlign: "center", fontSize: "24px", marginTop: "20px" }}>João, pague o restante em 1x no cartão</Typography>
+            <Typography sx={{ width: "400px", height: "70px", textAlign: "center", fontSize: "24px", marginTop: "20px" }}>João, pague o restante em 1x no cartão</Typography>
             <Box className={Styles.containerForm}>
                 <FormControl sx={{ padding: "10px", fontSize: "18px" }} className={Styles.FormControl} component="fieldset">
                     <FormLabel className={Styles.FormLabel} component="legend">

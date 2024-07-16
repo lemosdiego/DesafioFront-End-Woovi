@@ -1,8 +1,7 @@
 "use client";
 
-import { Box, Button, Divider, FormControl, FormLabel, Typography, RadioGroup } from "@mui/material";
+import { Box, FormControl, FormLabel, Typography, RadioGroup, Divider } from "@mui/material";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import PaymentOption from "@/components/PaymentOption";
 import Styles from './payment.module.css';
@@ -12,8 +11,6 @@ const Payment = () => {
 
   const handleChange = (event) => {
     setSelectedValue(event.target.value);
-
-
   };
 
   return (
@@ -29,7 +26,7 @@ const Payment = () => {
       <Typography className={Styles.description} >João, como você quer pagar?</Typography>
 
       <Box className={Styles.box1} >
-        <FormControl className={Styles.fieldset} component="fieldset">
+        <FormControl className={Styles.fieldset1} component="fieldset">
           <FormLabel className={Styles.label} component="legend">
             <Typography>Pix</Typography>
           </FormLabel>
@@ -37,6 +34,7 @@ const Payment = () => {
             <PaymentOption
               value="pix"
               selectedValue={selectedValue}
+              handleChange={handleChange}
               parcelasText="1x R$ 30.000,00"
               totalText="Ganhe 3% de Cashback"
               cashbackOption={true}
@@ -47,64 +45,75 @@ const Payment = () => {
       </Box>
 
       <Box className={Styles.box2}>
-        <FormControl component="fieldset" className={Styles.fieldset}>
-          <FormLabel className={Styles.label} component="legend" >
-            <Typography>Pix Parcelado</Typography>
-          </FormLabel>
-          <RadioGroup value={selectedValue} onChange={handleChange} sx={{ width: "100%" }}>
+
+        <RadioGroup value={selectedValue} onChange={handleChange} sx={{ width: "100%" }}>
+          <FormControl component="fieldset" className={Styles.fieldset}>
+            <FormLabel className={Styles.label} component="legend" >
+              <Typography>Pix Parcelado</Typography>
+            </FormLabel>
             <PaymentOption
               value="pixParcelado1"
               selectedValue={selectedValue}
+              handleChange={handleChange}
               style={{ width: "100%", height: "90px" }}
               parcelasText="2x R$ 15.300,00"
               totalText="Total: R$ 30.600,00"
             />
-            <Divider />
+          </FormControl>
+          <Box className={Styles.box_Payment}>
             <PaymentOption
               value="pixParcelado2"
               selectedValue={selectedValue}
+              handleChange={handleChange}
               style={{ width: "100%", height: "90px" }}
               parcelasText="3x R$ 10.196,66"
               totalText="Total: R$ 30.620,00"
             />
-            <Divider />
+          </Box>
+          <Box className={Styles.box_Payment}>
             <PaymentOption
               value="pixParcelado3"
               selectedValue={selectedValue}
-              style={{ width: "100%", height: "110px" }}
+              handleChange={handleChange}
+              style={{ width: "100%", height: "120px" }}
               parcelasText="4x R$ 7.725,00"
               totalText="Total: R$ 30.900,00"
               cashbackOption={true}
               cashbackText="-3% de juros: Melhor opção de parcelamento"
             />
-            <Divider />
+          </Box>
+          <Box className={Styles.box_Payment}>
             <PaymentOption
               value="pixParcelado4"
               selectedValue={selectedValue}
+              handleChange={handleChange}
               style={{ width: "100%", height: "90px" }}
               parcelasText="5x R$ 6.300,00"
               totalText="Total: R$ 31.500,00"
             />
-            <Divider />
+          </Box>
+          <Box className={Styles.box_Payment}>
             <PaymentOption
               value="pixParcelado5"
               selectedValue={selectedValue}
+              handleChange={handleChange}
               style={{ width: "100%", height: "90px" }}
               parcelasText="6x R$ 5.283,33"
               totalText="Total: R$ 31.699,98"
             />
-            <Divider />
+          </Box>
+          <Box className={Styles.box_Payment}>
             <PaymentOption
               value="pixParcelado6"
               selectedValue={selectedValue}
+              handleChange={handleChange}
               style={{ width: "100%", height: "90px" }}
               parcelasText="7x R$ 4.542,85"
               totalText="Total: R$ 31.800,00"
             />
-          </RadioGroup>
-        </FormControl>
+          </Box>
+        </RadioGroup>
       </Box>
-
       <Box className={Styles.box3}>
         <Box className={Styles.boxImage} >
           <Image
@@ -124,9 +133,8 @@ const Payment = () => {
           />
         </Box>
       </Box>
-    </Box >
+    </Box>
   )
 }
 
 export default Payment;
-
